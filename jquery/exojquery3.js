@@ -11,4 +11,10 @@ jQuery(function ($){
 
     //aout de p en dernier fils de body
     p.appendTo("body");
+
+    let p2 = $("<p></p>"),{
+        text: "Deuxième paragraphe crée avec jQuery",
+        id: "p2",
+        class: "paragraphe"
+    }).appendTo("body");
 });
