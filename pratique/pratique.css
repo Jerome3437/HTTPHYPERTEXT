@@ -1,0 +1,35 @@
+body{
+    background-image: url(image.jpg);
+    margin:0;
+
+}
+
+nav {
+    background-color: black;
+    margin-block-end: 100%; /*fait apparaitre la barre de scroll...*/
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: auto;
+    
+}
+
+nav ul{
+    color: white;
+    text-decoration: none;
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;  
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+}
+
+li:hover{
+
+font-size: 2em;
+color: rosybrown;
+}
+
+a:hover{
+    text-decoration: none;
+    color:rosybrown;
+}

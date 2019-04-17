@@ -40,5 +40,7 @@ class Colonne {
     }
     addCarte(){
         const carte = new carte("question","réponse");
+        const carte = new carte("question", "réponse");
+        
     }
 }
